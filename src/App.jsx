@@ -95,7 +95,7 @@ function AppContent() {
                                 </FooterItem>
                                 <FooterItem className="flex items-center gap-2">
                                     <FileText size={16} className="text-accent" />
-                                    <a href="/cv.pdf" target="_blank" className="hover:text-cs-white">
+                                    <a href="/Dumond Camille - CV.pdf" target="_blank" className="hover:text-cs-white">
                                         Télécharger mon CV
                                     </a>
                                 </FooterItem>
