@@ -55,7 +55,7 @@ function AppContent() {
 
             <Routes>
                 <Route path="/" element={<Hero onDiscover={() => handleNavItemClick("À propos")} />} />
-                <Route path="/about" element={<About onViewProjects={() => handleNavItemClick("Projets")} />} />
+                <Route path="/about" element={<About />} />
                 <Route path="/projets" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>

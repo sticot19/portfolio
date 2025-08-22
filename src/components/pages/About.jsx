@@ -5,17 +5,15 @@ import Button from "@/components/ui/Button"
 import Section from "@/components/ui/Section"
 import SkillCard from "@/components/ui/SkillCard"
 
-export default function About({ onViewProjects }) {
+export default function About() {
     const navigate = useNavigate()
     const [imageError, setImageError] = useState(false)
 
     const handleViewProjects = () => {
-        onViewProjects()
         navigate("/projets")
     }
     
     const handleContact = () => {
-        onViewProjects()
         navigate("/contact")
     }
 
