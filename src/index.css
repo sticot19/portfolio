@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+@theme {
+
+    /*======= FONTS =======*/
+    --font-Orbitron: "Orbitron", sans-serif;
+    --font-Sharetech: 'Share Tech Mono', monospace;
+
+    /*======= COLORS =======*/
+    --color-primary-red: #e74c3c;
+    --color-primary-red-dark: #e74c3c14;
+
+    --color-background: #0d0d0d;
+
+    --color-cs-grey: #e6eef6cc;
+    /* muted */
+    --color-cs-white: #e6e6e6;
+    /* washed */
+    --color-cs-dark-purple: #7b61ff0a;
+    --color-cs-dark-grey: #e6eef699;
+
+    --color-light-dark-00: #ffffff00;
+    --color-light-dark-03: #ffffff03;
+    --color-light-dark-04: #ffffff04;
+    --color-light-dark-05: #ffffff05;
+    --color-light-dark-08: #ffffff08;
+    --color-light-dark-0a: #ffffff0a;
+
+    /*======= TEXT =======*/
+    --text-1: 1rem;
+    --text-2: 2rem;
+    --text-18: 18rem;
+    --text-095: 0.95rem;
+    --text-085: 0.85rem;
+
+    --text-shadow-glow-red: 0 0 12px #e74c3c40, 0 0 30px #7b61ff08;
+
+    /*======= BOX SHADOW =======*/
+    --shadow-cad-shadow: 0 20px 60px #00000099, 0 6px 30px #7b61ff0f;
+    --shadow-btn-neon: 0 8px 36px #e74c3c1f;
+    --shadow-navlinks: 0 4px 22px #7b61ff08;
+    --shadow-hero-content: 0 10px 40px #00000099, inset 0 1px 0 #ffffff05;
+
+    /*======= TBD =======*/
+    --spacing-95p: 95%
+}
+
+* {
+    scroll-behavior: smooth;
+    cursor: default;
+}
