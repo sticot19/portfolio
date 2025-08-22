@@ -13,6 +13,11 @@ export default function About({ onViewProjects }) {
         onViewProjects()
         navigate("/projets")
     }
+    
+    const handleContact = () => {
+        onViewProjects()
+        navigate("/contact")
+    }
 
     const handleImageError = () => setImageError(true)
 
@@ -134,7 +139,7 @@ export default function About({ onViewProjects }) {
                         Je suis ouvert aux opportunités professionnelles dans le domaine de l'administration système et réseau,
                         ainsi qu'aux projets de développement web.
                     </p>
-                    <Button href="/contact">
+                    <Button onClick={handleContact}>
                         Me contacter
                     </Button>
                 </div>
