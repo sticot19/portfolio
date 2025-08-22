@@ -292,8 +292,8 @@ Architecture future :
 Optimisations à venir:
 - Chargement lazy des images
 - Intégration responsive sur tous les devices`,
-                "githubUrl": null,
-                "liveUrl": "https://portfolio-username.vercel.app",
+                "githubUrl": "https://github.com/sticot19/portfolio",
+                "liveUrl": "https://camille-dumond-portfolio.vercel.app/",
                 "featured": true
         }
 ];
