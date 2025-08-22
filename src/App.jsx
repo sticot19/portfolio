@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router"
-
+import { Analytics } from '@vercel/analytics/react';
 import  { Navbar,NavbarLogo, NavbarToggle, NavbarMenu, NavbarItem } from "@/components/ui/Navbar"
 import Footer, { FooterContent, FooterBranding, FooterBrandDesc, FooterContainer, FooterSectionTitle, FooterSectionItem, FooterItem, FooterCopy } from "@/components/ui/Footer"
 
@@ -105,6 +105,7 @@ function AppContent() {
                     <FooterCopy brandName="MonPortefolio" />
                 </Footer>
             )}
+            <Analytics />
         </div>
     )
 }
