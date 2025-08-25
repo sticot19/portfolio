@@ -25,7 +25,7 @@ export default function About() {
         { icon: <Network size={24} />, title: "Réseaux", items: ["TCP/IP", "DNS", "DHCP"] },
         { icon: <Database size={24} />, title: "Bases de données", items: ["MySQL", "SQL Server", "MongoDB"] },
         { icon: <Shield size={24} />, title: "Cybersécurité", items: ["Pare-feu", "VPN"] },
-        { icon: <Speech size={24} />, title: "Soft skills", items: ["Autonomie", "Curiosité", "Adaptabilité"] },
+        { icon: <Speech size={24} />, title: "Soft skills", items: ["Autonomie", "Curiosité", "Adaptabilité", "Autodidacte"] },
     ]
 
     return (

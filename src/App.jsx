@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router"
+import { BrowserRouter as Router, Routes, Route, useLocation, Link } from "react-router"
 import { Analytics } from '@vercel/analytics/react';
 import  { Navbar,NavbarLogo, NavbarToggle, NavbarMenu, NavbarItem } from "@/components/ui/Navbar"
 import Footer, { FooterContent, FooterBranding, FooterBrandDesc, FooterContainer, FooterSectionTitle, FooterSectionItem, FooterItem, FooterCopy } from "@/components/ui/Footer"
@@ -71,16 +71,16 @@ function AppContent() {
                             <FooterSectionTitle>Navigation</FooterSectionTitle>
                             <FooterSectionItem>
                                 <FooterItem>
-                                    <a href="/" className="hover:text-cs-white">Accueil</a>
+                                    <Link to="/" className="hover:text-cs-white">Accueil</Link>
                                 </FooterItem>
                                 <FooterItem>
-                                    <a href="/about" className="hover:text-cs-white">À propos</a>
+                                    <Link to="/about" className="hover:text-cs-white">À propos</Link>
                                 </FooterItem>
                                 <FooterItem>
-                                    <a href="/projets" className="hover:text-cs-white">Projets</a>
+                                    <Link to="/projets" className="hover:text-cs-white">Projets</Link>
                                 </FooterItem>
                                 <FooterItem>
-                                    <a href="/contact" className="hover:text-cs-white">Contact</a>
+                                    <Link to="/contact" className="hover:text-cs-white">Contact</Link>
                                 </FooterItem>
                             </FooterSectionItem>
                         </FooterContainer>
