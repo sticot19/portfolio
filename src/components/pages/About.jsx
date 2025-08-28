@@ -1,4 +1,4 @@
-import { Code, Server, Network, Database, Shield, User, Binary, Speech } from "lucide-react"
+import { Code, Server, Network, Database, Shield, User, LibraryBig, Speech, PackageOpen } from "lucide-react"
 import { useNavigate } from "react-router"
 import { useState } from "react"
 import Button from "@/components/ui/Button"
@@ -12,7 +12,7 @@ export default function About() {
     const handleViewProjects = () => {
         navigate("/projets")
     }
-    
+
     const handleContact = () => {
         navigate("/contact")
     }
@@ -20,12 +20,14 @@ export default function About() {
     const handleImageError = () => setImageError(true)
 
     const skills = [
-        { icon: <Code size={24} />, title: "Développement", items: ["HTML/CSS", "PHP", "React/JavaScript", "Python"] },
-        { icon: <Server size={24} />, title: "Administration", items: ["Windows Server", "Linux", "Virtualisation"] },
-        { icon: <Network size={24} />, title: "Réseaux", items: ["TCP/IP", "DNS", "DHCP"] },
-        { icon: <Database size={24} />, title: "Bases de données", items: ["MySQL", "SQL Server", "MongoDB"] },
+        { icon: <Code size={24} />, title: "Développement", items: ["HTML/CSS", "PHP", "JavaScript", "Python"] },
+        { icon: <Server size={24} />, title: "Administration", items: ["Windows Server", "Linux (debian, alpine, ubuntu)", "Virtualisation"] },
+        { icon: <Network size={24} />, title: "Réseaux", items: ["TCP/IP", "DHCP", "Reverse Proxy (Nginx)", "Technologies Cisco"] },
+        { icon: <Database size={24} />, title: "Bases de données", items: ["MySQL", "SQL Server"] },
         { icon: <Shield size={24} />, title: "Cybersécurité", items: ["Pare-feu", "VPN"] },
         { icon: <Speech size={24} />, title: "Soft skills", items: ["Autonomie", "Curiosité", "Adaptabilité", "Autodidacte"] },
+        { icon: <LibraryBig size={24} />, title: "Initiations", items: ["C / C++ / C#", "Dart (Flutter)", "Java", "React"] },
+        { icon: <PackageOpen size={24} />, title: "Virtualisation", items: ["Vsphere", "VMware", "VirtualBox", "Proxmox"] },
     ]
 
     return (
