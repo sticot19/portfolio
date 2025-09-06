@@ -39,7 +39,8 @@ export default function About() {
 
                 <div className="flex flex-col lg:flex-row gap-10 mb-12">
                     <div className="lg:w-1/3 flex justify-center items-center">
-                        <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary-red to-cs-dark-purple flex items-center justify-center shadow-lg overflow-hidden">
+                        <div className={`w-48 h-48 rounded-full flex items-center justify-center shadow-lg overflow-hidden
+                            ${imageError ? "bg-gradient-to-br from-primary-red to-cs-dark-purple" : "bg-white"}`}>
                             {imageError ? (
                                 <div className="flex flex-col items-center justify-center w-full h-full">
                                     <User size={48} className="text-cs-white opacity-70" />
